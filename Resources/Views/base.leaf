@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en">
+    <head>
+
+        <title>#get(pageTitle)</title>
+
+    </head>
+
+    <body>
+        #if(body) {
+          #get(body)
+        } else {
+          <h1>No body provided.</h1>
+        }
+    </body>
+</html>

@@ -1,0 +1,5 @@
+#set("pageTitle") { My Fancy Page Title }
+
+#set("body") { ClientTag: #clientTag(). }
+
+#embed("base")
